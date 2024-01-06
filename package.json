@@ -2,6 +2,7 @@
   "name": "learn-backend",
   "version": "1.0.0",
   "description": "learn backend from youtube",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +12,8 @@
     "backend"
   ],
   "author": "Abuzar baig",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
